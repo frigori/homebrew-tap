@@ -6,25 +6,25 @@ cask "homenet-bridge" do
     end
   end
 
-  version "0.1.1"
+  version "0.1.2"
 
   on_macos do
     on_arm do
-      sha256 "d74acf7806401c9385b7d4e1a27b918e39debe1364064d057faaf95306a92d12"
+      sha256 "8b4f6fa0c40501ff729332511391aa0426ed8f813bf74ba6693e7771afc83ef9"
       url "https://github.com/frigori/homenet-bridge/releases/download/v#{version}/homenet-bridge_#{version}_darwin_arm64.tar.gz"
     end
     on_intel do
-      sha256 "b9507da46dd26dacc8ec7eb68bfb361af30c24cd8b6184fb47084c21f85124a6"
+      sha256 "4baf6599f4c3863aac284e56125dba2baf726b269082d8ef2691f99f4508015c"
       url "https://github.com/frigori/homenet-bridge/releases/download/v#{version}/homenet-bridge_#{version}_darwin_amd64.tar.gz"
     end
   end
   on_linux do
     on_arm do
-      sha256 "9e4f0a0b861a1abd207d9e0014f44715e7fe3821d4f7a8bd130384ff92837024"
+      sha256 "88994344aa45d130ffb949c2ecbc8d1a91c40e7495b7f075193decb2dfc4c9d9"
       url "https://github.com/frigori/homenet-bridge/releases/download/v#{version}/homenet-bridge_#{version}_linux_arm64.tar.gz"
     end
     on_intel do
-      sha256 "fd1aafa01e276427be943513d6d820e754d70c9469764259828851c5a255fdf2"
+      sha256 "2bd9371ff6382b2d29c0dab259485c513da074cf5db0b7e807cdb7295abcddef"
       url "https://github.com/frigori/homenet-bridge/releases/download/v#{version}/homenet-bridge_#{version}_linux_amd64.tar.gz"
     end
   end
